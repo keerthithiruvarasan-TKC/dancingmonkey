@@ -1,15 +1,12 @@
 
 import { User, Customer, AnyPlan, Organization, Attachment, UserRole } from '../types';
 import { db as firestore, auth, storage, firebaseConfig } from './firebaseConfig';
-// @ts-ignore
 import { 
   collection, getDocs, doc, setDoc, updateDoc
 } from 'firebase/firestore';
-// @ts-ignore
 import { 
   ref, uploadString, getDownloadURL 
 } from 'firebase/storage';
-// @ts-ignore
 import { signInWithEmailAndPassword } from 'firebase/auth';
 
 /**
