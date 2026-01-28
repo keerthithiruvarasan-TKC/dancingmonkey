@@ -5,11 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    // Removed 'path' alias usage to avoid need for @types/node
-    // Default resolution works fine for this flat structure
-    alias: {
-      '@': '/src', 
-    },
+    // Removed alias as project structure is flat in root
   },
   build: {
     outDir: 'dist',
