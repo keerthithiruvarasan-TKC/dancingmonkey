@@ -1,6 +1,6 @@
-
 {
   "hosting": {
+    "site": "myapp-semv3-cb0b6",
     "public": "dist",
     "ignore": [
       "firebase.json",
