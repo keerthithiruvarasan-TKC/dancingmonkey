@@ -1,9 +1,10 @@
+
 {
   "name": "sales-enquiry-tracker",
   "version": "1.0.0",
   "description": "Sales Enquiry Management System",
-  "type": "module",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,14 +12,15 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "20"
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "@google/genai": "*",
-    "firebase": "^10.8.0",
-    "lucide-react": "^0.344.0",
+    "express": "^4.18.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "firebase": "^10.8.0",
+    "@google/genai": "^0.0.12",
+    "lucide-react": "^0.344.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
