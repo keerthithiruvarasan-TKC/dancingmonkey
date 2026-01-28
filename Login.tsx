@@ -138,7 +138,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
 
             <button disabled={isLoading} className={`w-full text-white font-bold py-4 rounded-xl shadow-xl transition-all transform hover:scale-[1.02] flex items-center justify-center gap-2 mt-4 ${activeTab === 'org_admin' ? 'bg-slate-900 hover:bg-slate-800' : 'bg-orange-600 hover:bg-orange-700'} ${isLoading ? 'opacity-70' : ''}`}>
               {isLoading ? 'Verifying...' : (activeTab === 'org_admin' ? 'Admin Sign In' : 'User Sign In')}
-              {!isLoading && <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>}
+              {!isLoading && <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-4 7m7-7H3" /></svg>}
             </button>
             <p className="text-center text-xs text-slate-400 mt-4">
               {activeTab === 'org_admin' 
