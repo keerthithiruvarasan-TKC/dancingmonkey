@@ -1,15 +1,15 @@
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
   resolve: {
+    // Removed 'path' alias usage to avoid need for @types/node
+    // Default resolution works fine for this flat structure
     alias: {
-      '@': path.resolve(__dirname, './'),
+      '@': '/src', 
     },
-    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
   },
   build: {
     outDir: 'dist',
