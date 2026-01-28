@@ -1,11 +1,7 @@
 
-// @ts-ignore
 import { initializeApp } from "firebase/app";
-// @ts-ignore
 import { getFirestore } from "firebase/firestore";
-// @ts-ignore
 import { getAuth } from "firebase/auth";
-// @ts-ignore
 import { getStorage } from "firebase/storage";
 
 // ------------------------------------------------------------------
