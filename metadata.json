@@ -1,0 +1,7 @@
+{
+  "name": "SALES ENQUIRY MANAGEMENT ",
+  "description": "A comprehensive sales enquiry management system with hierarchical access control, plan tracking, and data consolidation features for DSE, Dealers, Sales Engineers, and RSMs.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
