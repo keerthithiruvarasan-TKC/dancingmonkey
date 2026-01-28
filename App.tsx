@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { User, UserRole } from './types';
-import Login from './pages/Login';
-import Home from './pages/Home';
-import AddCustomer from './pages/AddCustomer';
-import MyCustomers from './pages/MyCustomers';
-import MyEnquiries from './pages/MyEnquiries';
-import ProjectPlanPage from './pages/ProjectPlan';
-import ConversionPlanPage from './pages/ConversionPlan';
-import RetentionPlanPage from './pages/RetentionPlan';
-import AdminPanel from './pages/AdminPanel';
+import Login from './pages/Login.tsx';
+import Home from './pages/Home.tsx';
+import AddCustomer from './pages/AddCustomer.tsx';
+import MyCustomers from './pages/MyCustomers.tsx';
+import MyEnquiries from './pages/MyEnquiries.tsx';
+import ProjectPlanPage from './pages/ProjectPlan.tsx';
+import ConversionPlanPage from './pages/ConversionPlan.tsx';
+import RetentionPlanPage from './pages/RetentionPlan.tsx';
+import AdminPanel from './pages/AdminPanel.tsx';
 import { db } from './services/mockDb';
 
 interface AuthContextType {
